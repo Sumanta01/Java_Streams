@@ -26,9 +26,10 @@ public class App4 {
         itemList.add(new Product(6,"Washing Machine",15000));
         itemList.add(new Product(7,"Oven",85000));
         itemList.add(new Product(8,"Mixer",95000));
+        itemList.add(new Product(9,"Grinder",25000));
 
 
-        itemList.stream().filter(i->i.price>50000).forEach(i->System.out.println(i.name+":-"+i.price));
+        itemList.stream().filter(i->i.price>50000).forEach(i->System.out.println(i.name+" : "+i.price));
 
 
 
