@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 class Employee{
     int id;
@@ -28,6 +29,8 @@ public class App4 {
         );
        
         list.stream().filter(i->i.salary>40000).map(i->i.salary).forEach(System.out::println);
+        List<Double>ans=list.stream().filter(i->i.salary>40000).map(i->i.salary).collect(Collectors.toList());
+        System.out.println(ans);
       
 
         
