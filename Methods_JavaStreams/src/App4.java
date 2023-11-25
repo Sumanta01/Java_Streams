@@ -7,7 +7,7 @@ public class App4 {
 
         List<String>name=Arrays.asList("Rocky","Sam","David","Smith","Rohan");
         Object ans[]= name.stream().toArray();
-        System.out.println(ans);
+        System.out.println(Arrays.toString(ans)); //using toString() method to print the objcets 
         for(Object i: ans){
             System.out.println(i);
         }
