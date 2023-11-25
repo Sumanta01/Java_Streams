@@ -32,6 +32,7 @@ public class App4 {
         List<Double>ans=list.stream().filter(i->i.salary>40000).map(i->i.salary).collect(Collectors.toList());
         System.out.println(ans);
       
+        
 
         
         
