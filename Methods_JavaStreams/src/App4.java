@@ -11,5 +11,6 @@ public class App4 {
         for(Object i: ans){
             System.out.println(i);
         }
+        
     }
 }
